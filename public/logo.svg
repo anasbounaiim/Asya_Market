@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">ASYA MARKET logo</title>
+  <rect width="240" height="240" rx="48" fill="#111111"/>
+  <path d="M65 80h132l-14 72a22 22 0 0 1-22 18H91a22 22 0 0 1-22-18L55 58H37" fill="none" stroke="#facc15" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="95" cy="196" r="13" fill="#facc15"/>
+  <circle cx="163" cy="196" r="13" fill="#facc15"/>
+  <path d="M91 136 119 72l28 64M102 113h35" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
