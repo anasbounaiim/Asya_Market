@@ -5,7 +5,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 
 export function ContactSection() {
-  const whatsappLink = createWhatsAppLink("Bonjour ASYA MARKET, je souhaite vous contacter.");
+  const whatsappLink = createWhatsAppLink("Bonjour ASYA MARKET, je souhaite vous contacter pour un produit ou un devis.");
 
   return (
     <section id="contact" className="mx-auto max-w-7xl px-4 py-8 pb-16 sm:px-6 lg:px-8">

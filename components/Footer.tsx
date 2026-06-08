@@ -16,7 +16,7 @@ export function Footer() {
             className="h-auto w-44 object-contain"
           />
           <p className="mt-3 text-sm font-medium leading-6 text-zinc-300">
-            Votre marché de proximité pour commander vos courses du quotidien rapidement via WhatsApp.
+            Votre magasin d'outillage, jardin, bâtiment, plomberie, électricité, peinture et maison pour préparer vos demandes rapidement via WhatsApp.
           </p>
         </div>
         <div>

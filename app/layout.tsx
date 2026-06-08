@@ -15,9 +15,9 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "ASYA MARKET - Votre marché de proximité",
+  title: "ASYA MARKET - Outillage, jardin, bâtiment et maison",
   description:
-    "Commandez vos courses du quotidien chez ASYA MARKET directement via WhatsApp.",
+    "Demandez vos produits d'outillage, jardin, BTP, solaire, plomberie, électricité, peinture et maison chez ASYA MARKET via WhatsApp.",
 };
 
 export default function RootLayout({

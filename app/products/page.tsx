@@ -18,7 +18,7 @@ export default function ProductsPage({
         <SectionTitle
           title="Tous les produits"
           eyebrow="Catalogue"
-          description="Recherchez, filtrez et ajoutez vos courses à la commande WhatsApp."
+          description="Recherchez, filtrez et ajoutez vos articles à la demande WhatsApp."
         />
         <ProductListing products={products} initialCategory={initialCategory} />
       </section>

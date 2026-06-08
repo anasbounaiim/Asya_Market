@@ -18,7 +18,7 @@ const supportLinks: SupportItem[] = [
     content: [
       "Les prix affichés sont indicatifs et peuvent être ajustés selon la disponibilité en magasin.",
       "La commande est confirmée uniquement après échange avec ASYA MARKET via WhatsApp.",
-      "Aucun paiement en ligne n'est requis sur le site.",
+      "Aucun paiement en ligne n'est requis sur le site. Les détails de livraison ou retrait sont confirmés avec l'équipe.",
     ],
   },
   {
@@ -26,9 +26,9 @@ const supportLinks: SupportItem[] = [
     label: "Politique de retour",
     title: "Politique de retour",
     content: [
-      "Les retours sont étudiés selon l'état du produit et le délai après achat.",
-      "Les produits frais ou ouverts peuvent ne pas être repris.",
-      "Contactez-nous sur WhatsApp avec une photo du produit et les détails de la commande.",
+      "Les retours sont étudiés selon l'état du produit, son emballage et le délai après achat.",
+      "Les articles utilisés, installés, découpés ou mélangés peuvent ne pas être repris.",
+      "Contactez-nous sur WhatsApp avec une photo du produit, sa référence et les détails de la commande.",
     ],
   },
   {
@@ -36,7 +36,7 @@ const supportLinks: SupportItem[] = [
     label: "Assistance client",
     title: "Assistance client",
     content: [
-      "Notre équipe vous accompagne pour vérifier la disponibilité, la livraison et le retrait.",
+      "Notre équipe vous accompagne pour vérifier les références, la disponibilité, la livraison et le retrait.",
       "Pour une réponse rapide, envoyez votre demande directement sur WhatsApp.",
       "Les horaires d'assistance suivent les horaires d'ouverture du magasin.",
     ],
@@ -46,7 +46,7 @@ const supportLinks: SupportItem[] = [
     label: "Retrait en magasin",
     title: "Retrait en magasin",
     content: [
-      "Préparez votre commande sur le site puis envoyez-la sur WhatsApp.",
+      "Préparez votre liste d'articles sur le site puis envoyez-la sur WhatsApp.",
       "Nous confirmons la disponibilité avant votre passage.",
       "Le retrait se fait à l'adresse du magasin pendant les horaires d'ouverture.",
     ],

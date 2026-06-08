@@ -7,19 +7,19 @@ const avatarColors = ["#111111", "#181818", "#facc15", "#fbbf24", "#fde047"];
 
 const testimonials = [
   {
-    name: "Alice Paul",
-    area: "Cliente régulière",
-    text: "Commande simple sur WhatsApp, réponse rapide et les produits essentiels sont faciles à trouver.",
+    name: "Karim Benali",
+    area: "Travaux maison",
+    text: "J'ai trouvé les outils et accessoires plomberie rapidement, puis l'équipe a confirmé la disponibilité sur WhatsApp.",
   },
   {
     name: "Youssef Amrani",
     area: "Retrait magasin",
-    text: "J'ajoute mes courses, j'envoie le message et je passe récupérer. Pratique pour les journées chargées.",
+    text: "J'ajoute les références pour le chantier, j'envoie le message et je passe récupérer après confirmation.",
   },
   {
     name: "Nadia Karim",
-    area: "Livraison locale",
-    text: "Le site est clair sur mobile, les prix sont visibles et les promotions sont bien mises en avant.",
+    area: "Jardin & maison",
+    text: "Le site est clair sur mobile, les rayons sont faciles à filtrer et les promotions sont bien mises en avant.",
   },
 ];
 
@@ -29,7 +29,7 @@ export function Testimonials() {
       <SectionTitle
         title="Avis clients"
         eyebrow="Témoignages"
-        description="Quelques retours de clients qui commandent leurs courses du quotidien chez ASYA MARKET."
+        description="Quelques retours de clients qui préparent leurs achats maison, jardin et chantier chez ASYA MARKET."
       />
       <div className="grid gap-4 md:grid-cols-3">
         {testimonials.map((testimonial) => (

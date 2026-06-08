@@ -12,7 +12,7 @@ import { WhatsAppIcon } from "@/components/WhatsAppIcon";
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const { count, openCart } = useCart();
-  const whatsappLink = createWhatsAppLink("Bonjour ASYA MARKET, je souhaite passer une commande.");
+  const whatsappLink = createWhatsAppLink("Bonjour ASYA MARKET, je souhaite demander un devis ou passer une commande.");
 
   const nav = [
     { href: "/#categories", label: "Catégories" },

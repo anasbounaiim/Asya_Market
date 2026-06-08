@@ -6,7 +6,7 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { CategoryScroller } from "@/components/CategoryScroller";
 import { Testimonials } from "@/components/Testimonials";
 import { products } from "@/data/products";
-import { BadgeCheck, Bike, HandCoins, ShoppingBasket } from "lucide-react";
+import { BadgeCheck, HandCoins, Truck, Wrench } from "lucide-react";
 
 export default function HomePage() {
   const promos = products.filter((product) => product.isPromo);
@@ -32,10 +32,10 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
         <SectionTitle title="Pourquoi nous choisir" eyebrow="Simple et local" />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <FeatureCard icon={ShoppingBasket} title="Produits variés" description="Tous vos essentiels du quotidien au même endroit." />
-          <FeatureCard icon={BadgeCheck} title="Commande rapide" description="Ajoutez vos produits et envoyez la commande directement sur WhatsApp." />
-          <FeatureCard icon={HandCoins} title="Prix raisonnables" description="Des prix adaptés aux courses de tous les jours." />
-          <FeatureCard icon={Bike} title="Livraison / retrait" description="Choisissez la livraison selon votre zone ou le retrait en magasin." />
+          <FeatureCard icon={Wrench} title="Rayons spécialisés" description="Outillage, BTP, plomberie, électricité, jardin, solaire et maison au même endroit." />
+          <FeatureCard icon={BadgeCheck} title="Disponibilité confirmée" description="Envoyez votre demande sur WhatsApp pour vérifier stock, prix et références." />
+          <FeatureCard icon={HandCoins} title="Prix magasin" description="Des tarifs adaptés aux achats maison, atelier, jardin et chantier." />
+          <FeatureCard icon={Truck} title="Livraison / retrait" description="Choisissez la livraison selon votre zone ou le retrait en magasin." />
         </div>
       </section>
       <Testimonials />

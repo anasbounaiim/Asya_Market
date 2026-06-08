@@ -1,18 +1,17 @@
-import { Baby, Beef, Cookie, CupSoda, Home, Milk, Package, Snowflake, Sparkles, Wheat } from "lucide-react";
+import { Droplets, Hammer, HardHat, Home, Lightbulb, Paintbrush, Sprout, Sun, Wrench } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 import type { Category } from "@/data/products";
 
 const iconMap = {
-  Épicerie: Wheat,
-  Boissons: CupSoda,
-  "Produits frais": Beef,
-  "Fruits & légumes": Sparkles,
-  "Produits laitiers": Milk,
-  "Snacks & biscuits": Cookie,
-  Hygiène: Package,
-  "Maison & nettoyage": Home,
-  Surgelés: Snowflake,
-  Bébé: Baby,
+  "Agriculture & Jardin": Sprout,
+  Outillage: Wrench,
+  "Bâtiment et travaux publics": HardHat,
+  "Énergie solaire et pompage": Sun,
+  "Électricité & Luminaire": Lightbulb,
+  "Sanitaire Plomberie": Droplets,
+  "Quincaillerie Droguerie": Hammer,
+  "Peinture & revêtement": Paintbrush,
+  "Cuisine & Maison": Home,
 } satisfies Record<Category, LucideIcon>;
 
 export function CategoryCard({ category }: { category: Category }) {

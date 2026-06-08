@@ -2,19 +2,19 @@
 
 import {
   ArrowDownAZ,
-  Baby,
-  Beef,
-  Cookie,
-  CupSoda,
+  Droplets,
+  Hammer,
+  HardHat,
   Home,
-  Milk,
-  Package,
+  Lightbulb,
+  Paintbrush,
   Search,
   SlidersHorizontal,
-  Snowflake,
   Sparkles,
+  Sprout,
+  Sun,
   Tag,
-  Wheat,
+  Wrench,
 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { categories, type Category, type Product } from "@/data/products";
@@ -24,16 +24,15 @@ type Sort = "default" | "price-asc" | "price-desc";
 
 const categoryIcons = {
   Tous: SlidersHorizontal,
-  Épicerie: Wheat,
-  Boissons: CupSoda,
-  "Produits frais": Beef,
-  "Fruits & légumes": Sparkles,
-  "Produits laitiers": Milk,
-  "Snacks & biscuits": Cookie,
-  Hygiène: Package,
-  "Maison & nettoyage": Home,
-  Surgelés: Snowflake,
-  Bébé: Baby,
+  "Agriculture & Jardin": Sprout,
+  Outillage: Wrench,
+  "Bâtiment et travaux publics": HardHat,
+  "Énergie solaire et pompage": Sun,
+  "Électricité & Luminaire": Lightbulb,
+  "Sanitaire Plomberie": Droplets,
+  "Quincaillerie Droguerie": Hammer,
+  "Peinture & revêtement": Paintbrush,
+  "Cuisine & Maison": Home,
 } as const;
 
 export function ProductListing({
@@ -122,7 +121,7 @@ export function ProductListing({
             {filtered.length} produit{filtered.length > 1 ? "s" : ""}
           </p>
           <p className="text-xs font-bold text-zinc-500">
-            Commande sans compte, directement via WhatsApp
+            Demande de devis ou commande sans compte, directement via WhatsApp
           </p>
         </div>
         {filtered.length > 0 ? (

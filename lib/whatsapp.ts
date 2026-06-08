@@ -7,11 +7,11 @@ export type CartLine = {
 };
 
 export function generateProductOrderMessage(product: Product, quantity: number) {
-  return `Bonjour ASYA MARKET, je veux commander ce produit:
+  return `Bonjour ASYA MARKET, je souhaite vérifier ce produit:
 Produit: ${product.name}
 Quantité: ${quantity}
 Prix: ${product.price} DH
-Merci.`;
+Merci de confirmer la disponibilité et le prix.`;
 }
 
 export function generateCartOrderMessage(cartItems: CartLine[], total: number) {
@@ -24,7 +24,7 @@ export function generateCartOrderMessage(cartItems: CartLine[], total: number) {
 
   return `Bonjour ASYA MARKET,
 
-Je souhaite passer cette commande:
+Je souhaite demander un devis ou passer cette commande:
 
 ${lines}
 
@@ -34,7 +34,7 @@ Nom:
 Adresse:
 Mode souhaité: Livraison / Retrait magasin
 
-Merci.`;
+Merci de confirmer la disponibilité et le prix.`;
 }
 
 export function createWhatsAppLink(message: string) {
