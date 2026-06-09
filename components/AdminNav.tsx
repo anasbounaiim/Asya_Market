@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft, Boxes, LayoutDashboard, Store } from "lucide-react";
+import { ArrowLeft, Boxes, LayoutDashboard, Store, Tags } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 const adminLinks = [
   { href: "/admin", label: "Dashboard", icon: LayoutDashboard },
   { href: "/admin/products", label: "Produits", icon: Boxes },
+  { href: "/admin/catalog", label: "Categories & tags", icon: Tags },
 ];
 
 export function AdminNav({ children }: { children: React.ReactNode }) {
